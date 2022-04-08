@@ -1,0 +1,5 @@
+repos:
+  - type: raw
+    suffix: myapp
+  - type: docker
+    suffix: containers
