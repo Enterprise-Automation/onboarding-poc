@@ -5,3 +5,6 @@ contacts:
     - andrew@enterpriseautomation.co.uk
   teams:
     - blahid
+access:
+  read: gg_al12345_read
+  write: gg_al12345_write
