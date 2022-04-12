@@ -20,3 +20,6 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: enterpriseautomation/tekton.gitlog
+    steps:
+      - name: Log the node version
+        run: /app/main
