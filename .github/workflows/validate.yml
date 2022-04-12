@@ -21,5 +21,7 @@ jobs:
     container:
       image: enterpriseautomation/tekton.gitlog
     steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
       - name: Log the node version
         run: /app/main
